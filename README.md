@@ -44,7 +44,7 @@
 	基本块 (`BasicBlock::Create`);
 	函数入口块 (`CreateEntryBlockAlloca`);
 
-**调用 IRBuilder 生成的元素包括： **
+**调用 IRBuilder 生成的元素包括：**
 	内存变量加载 (`IRBuilder->CreateLoad`);
 	变量写回到内存 (`IRBuilder->CreateStore`);
 	函数调用 (`IRBuilder->CreateCall`);
